@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fffff0;
+        }
+        #header {
+            text-align: left;
+            border: 2px solid brown;
+            border-radius: 8px;
+            background-color: brown;
+            margin: 4px;
+            padding: 20px;
+            letter-spacing: 50px;
+        }
+        #header img {
+            vertical-align: middle;
+        }
+        #login-form {
+            display: inline;
+        }
+        #login-form input {
+            margin: 0 5px;
+            padding: 5px;
+        }
+        #login-form button {
+            background-color: sienna;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #section {
+            text-align: center;
+            margin: 20px auto;
+            padding: 20px;
+            width: 100%;
+            max-width: 1700px;
+            border: 3px solid #FF9933;
+            border-radius: 8px;
+            letter-spacing: 1cap;
+        }
+        .category {
+            background-color: orange;
+            color: white;
+            text-align: center;
+            font-size: 25px;
+            padding: 30px 30px;
+            margin: 0 5px;
+            display: inline-block;
+        }
+        .food-item {
+            display: inline-block;
+            width: 250px;
+            margin: 10px;
+            border: 2px solid #FF9933;
+            border-radius: 8px;
+            text-align: center;
+            background-color: #FF9933;
+            transition: transform 0.2s;
+        }
+        .food-item:hover {
+            transform: scale(1.05);
+        }
+        .food-item img {
+            width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+        .food-item h4 {
+            margin: 10px 0 5px;
+        }
+        .food-item p {
+            margin: 0 10px 10px;
+        }
+        .more-info {
+            background-color: sienna;
+            color: white;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        @media (max-width: 600px) {
+            .food-item {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <img src="3448598.png" alt="메인로고" width="50" height="50">
+        <form method="post" action="" id="login-form">
+            <button type="submit">숙소</button>
+            <button type="submit">예약</button>
+            <button type="submit">교통편</button>
+            <button type="submit">할인 쿠폰 & 특가상품</button>
+        </form>
+    </div>
+    <div id="section">
+        <a href="#" style="background-color: #FF9933; color: white; padding: 20px 50px;margin:10px;border:2px;border-radius:8px;transform:transform 0.2s;">카테고리1</a>
+        <a href="#" style="background-color: #FF9933; color: white; padding: 20px 50px;">카테고리2</a>
+        <a href="#" style="background-color: #FF9933; color: white; padding: 20px 50px;">카테고리3</a>
+        <a href="#" style="background-color: #FF9933; color: white; padding: 20px 50px;">카테고리4</a>
+        <a href="#" style="background-color: #FF9933; color: white; padding: 20px 50px;">카테고리5</a>
+        <a href="#" style="background-color: #FF9933; color: white; padding: 20px 50px;">카테고리6</a>
+    </div>
+
+        <div style="margin-top: 15px;">
+            <div class="food-item">
+                <img src="food1.jpg" alt="음식1">
+                <h4>음식 이름 1</h4>
+                <p>이 음식에 대한 간단한 설명입니다.</p>
+                <button class="more-info">더 알아보기</button>
+            </div>
+            <div class="food-item">
+                <img src="food2.jpg" alt="음식2">
+                <h4>음식 이름 2</h4>
+                <p>이 음식에 대한 간단한 설명입니다.</p>
+                <button class="more-info">더 알아보기</button>
+            </div>
+            <div class="food-item">
+                <img src="food3.jpg" alt="음식3">
+                <h4>음식 이름 3</h4>
+                <p>이 음식에 대한 간단한 설명입니다.</p>
+                <button class="more-info">더 알아보기</button>
+            </div>
+            <div class="food-item">
+                <img src="food4.jpg" alt="음식4">
+                <h4>음식 이름 4</h4>
+                <p>이 음식에 대한 간단한 설명입니다.</p>
+                <button class="more-info">더 알아보기</button>
+            </div>
+            <div class="food-item">
+                <img src="food5.jpg" alt="음식5">
+                <h4>음식 이름 5</h4>
+                <p>이 음식에 대한 간단한 설명입니다.</p>
+                <button class="more-info">더 알아보기</button>
+            </div>
+            <div class="food-item">
+                <img src="food6.jpg" alt="음식6">
+                <h4>음식 이름 6</h4>
+                <p>이 음식에 대한 간단한 설명입니다.</p>
+                <button class="more-info">더 알아보기</button>
+            </div>
+            <div class="food-item">
+                <img src="food7.jpg" alt="음식7">
+                <h4>음식 이름 7</h4>
+                <p>이 음식에 대한 간단한 설명입니다.</p>
+                <button class="more-info">더 알아보기</button>
+            </div>
+            <div class="food-item">
+                <img src="food8.jpg" alt="음식8">
+                <h4>음식 이름 8</h4>
+                <p>이 음식에 대한 간단한 설명입니다.</p>
+                <button class="more-info">더 알아보기</button>
+            </div>
+        </div>
+    </div>
+    <div id="map">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.208154568478!2d126.90184981502577!3d37.484378979829204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357b762a3f7f07f3%3A0xc44270c45368bb67!2z7KCV7JeQ7L2Y6rO87I6I6rO07ZWY7I2I!5e0!3m2!1sko!2skr!4v1630873017118!5m2!1sko!2skr" 
+            width="100%" 
+            height="400" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy"></iframe>
+    </div>
+    <div class="content-box"></div>
+    <div class="content-box"></div>
+    <div class="content-box"></div>
+</body>
+</html>
